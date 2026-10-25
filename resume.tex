@@ -92,15 +92,14 @@
       \resumeItem{Started on hand retargeting and traced poor performance back to the hand's kinematics rather than the algorithm. Took over the Rev.~1.5 21-DoF redesign, changing joint axes, finger geometry, and actuator layouts to better reproduce human grasps.}
       \resumeItem{Existing hand benchmarks were easy to game, so I built grasp-based ones in MuJoCo, sampling millions of object/hand poses to test whether designs could actually grasp and hold objects, then using the results to search a 30-parameter design space.}
       \resumeItem{Designed, manufactured, and assembled the next-gen hand in CNC'd aluminum and 316L stainless, including actuator sizing and 48V three-phase axial-flux motor controllers with magnetic encoders and CAN small enough to fit inside the fingers.}
-      \resumeItem{Built the synchronized teleoperation/data-collection stack around Manus gloves, Vive trackers, Raspberry Pi cameras, and robot joint states; also worked on fingertip tactile sensing.}
-      \resumeItem{Worked on S1, Origami's data collection glove, whose 20 encoded finger joints map 1:1 onto the robot hand so demonstrations need no retargeting; it also records fingertip/palm pressure and video in sync. Early units were sold to OpenAI.}
+      \resumeItem{Developed the kinematics for S1, Origami's data collection glove (early units sold to OpenAI), matching its 20 encoded finger joints 1:1 to the robot hand so demonstrations need no retargeting. Separately built the synchronized teleop/data-collection stack around Manus gloves, Vive trackers, Raspberry Pi cameras, and robot joint states, and contributed to fingertip tactile sensing.}
     \resumeItemListEnd
 
   \resumeSubheading
     {Tesla}{Palo Alto, CA}
     {Low Voltage Electrical Engineer Intern}{September 2025 -- December 2025}
     \resumeItemListStart
-      \resumeItem{Worked on Cybercab low-voltage systems including the windshield controller, TPMS, displays, Bluetooth, and GNSS, building fixtures and root-causing failures through thermal and vibration testing, including camera fogging in a room-sized thermal chamber.}
+      \resumeItem{Built test fixtures and root-caused failures across Cybercab low-voltage systems (windshield controller, TPMS, displays, Bluetooth, GNSS) through thermal and vibration testing, including camera fogging in a room-sized thermal chamber.}
       \resumeItem{Every test had its own automation stack, so I built a modular framework where engineers could plug reusable hardware-control modules into one orchestrator. It cut lifecycle stress-testing time by 25\% and was adopted across the org.}
       \resumeItem{Built Python pipelines that aggregated thousands of hours of electrical logs in real time and pushed results directly into Jira, making failures visible while tests were still running.}
     \resumeItemListEnd
@@ -109,17 +108,17 @@
     {Somo AI}{San Francisco, CA / Mexico City, MX}
     {Hardware \& Firmware Engineer Intern}{April 2025 -- September 2025}
     \resumeItemListStart
-      \resumeItem{Joined when Somo was about five people and had no hardware prototype, so I designed the first one from scratch. That board became the platform for figuring out the product's electronics, packaging, sizing, and field requirements.}
+      \resumeItem{Joined when Somo was about five people with no hardware and designed the first prototype from scratch; thousands of the resulting boards are now deployed in hotels worldwide, including 1,000+ production units of my PIR sensor.}
       \resumeItem{From there I designed 12+ boards across ESP32, STM32, Nordic, and Raspberry Pi, often shipping one or two revisions every two weeks; integrated mmWave, thermal, IMU, PIR, Ethernet, current sensing, CAN/RS-485, BLE, and 915~MHz radios.}
-      \resumeItem{Wrote the RTOS firmware, tested the finished products, and designed enclosures; thousands of the resulting boards are now deployed in hotels around the world, including 1,000+ production units of my PIR sensor.}
+      \resumeItem{Wrote the RTOS firmware, tested the finished products, and designed the enclosures.}
     \resumeItemListEnd
 
   \resumeSubheading
     {Atila Biosystems}{Sunnyvale, CA}
     {Electrical \& Firmware Engineer Intern}{October 2022 -- December 2023}
     \resumeItemListStart
-      \resumeItem{Came in with one goal, to recreate a \$600 PCR-testing device for roughly \$25 so it could go into homes and low-resource settings. Designed the PCB, power system, thermal hardware, and rugged solar/battery/USB-C enclosure around low-cost parts.}
-      \resumeItem{Wrote embedded C for real-time PID thermal cycling; designed the heater electronics and state machines around the narrow temperature window needed to amplify biological samples without overheating them.}
+      \resumeItem{Recreated a \$600 PCR-testing device for about \$25 so it could go into homes and low-resource settings, designing the PCB, power system, thermal hardware, and rugged solar/battery/USB-C enclosure around low-cost parts.}
+      \resumeItem{Wrote embedded C for real-time PID thermal cycling and designed the heater electronics and state machines around the narrow temperature window PCR needs; the finished device amplified biological samples reliably.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -132,8 +131,8 @@
     {FRC Team 971 (Spartan Robotics)}{Mountain View, CA}
     {Electrical \& Software Captain}{August 2021 -- June 2024}
     \resumeItemListStart
-      \resumeItem{Hard impacts kept killing connectors and sensor wiring, so I made it my mission to eliminate the problem. I designed 11 PCBs for encoders, Hall sensors, beam breaks, and ToF, plus power, CAN, and vision interfaces for early-access Jetson Orins.}
-      \resumeItem{Also wrote autonomous, superstructure, collision-avoidance, and auto-aim software with camera/IMU/encoder fusion; our 2022 autonomous ranked 2nd worldwide out of roughly 4,000 teams.}
+      \resumeItem{Hard impacts kept killing connectors and sensor wiring, so I designed 11 PCBs to eliminate the problem: encoder, Hall sensor, beam break, and ToF boards, plus power, CAN, and vision interfaces for early-access Jetson Orins.}
+      \resumeItem{Wrote autonomous, superstructure, collision-avoidance, and auto-aim software with camera/IMU/encoder fusion; our 2022 autonomous ranked 2nd worldwide out of roughly 4,000 teams.}
     \resumeItemListEnd
 
   \resumeSubheading
@@ -141,7 +140,7 @@
     {Lead Engineer}{June 2024 -- September 2024}
     \resumeItemListStart
       \resumeItem{A friend and I wanted to learn rocket propulsion from first principles, so we built nearly the entire vehicle ourselves, including APCP motor grains, thrust stands, a machined converging-diverging nozzle, avionics, wireless ignition, nose cone, and fins.}
-      \resumeItem{Static-fired and modeled the motor before flying to Mach 1.2 and 3,250~ft, with measured motor and flight performance closely matching our simulations.}
+      \resumeItem{Flew to Mach 1.2 and 3,250~ft after static-firing and modeling the motor; measured performance closely matched our simulations.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
